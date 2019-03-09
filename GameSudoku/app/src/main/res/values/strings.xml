@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">GameSudoku</string>
+    <string name="mainTitle">Sudoku Game</string>
+    <string name="new_game">New Game</string>
+    <string name="rules">Rules</string>
+    <string name="exitGame">Exit</string>
+    <string name="continueGame">Continue</string>
+    <string name="some_information_how_to_play">
+        The objective is to fill 9x9 grid with digits so that each column, each row
+        and each of the nine 3x3 subgrids that compose the whole grid (also called
+        "boxes", "blocks", "regions" or "subsquares") contains all of the digits
+        from 1 to 9. The puzzle setter provides a partially completed grid, which for
+        a well-posed puzzle has a unique solution.
+
+        Completed games are always a type of Latin square with an additional constraint
+        on the contents of individual regions. For example the same single integer may not
+        appear twice in the same row, column or any or the nine 3x3 subgrids of the 9x9 playing board.
+    </string>
+    <string name="game_rules">Game Rules</string>
 </resources>
