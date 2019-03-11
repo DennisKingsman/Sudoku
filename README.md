@@ -1,2 +1,0 @@
-# Sudoku
-first android game 
