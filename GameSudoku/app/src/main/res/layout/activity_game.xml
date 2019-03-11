@@ -1,9 +1,86 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".GameActivity">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".GameActivity"
+    android:orientation="vertical"
+    android:background="#e552dfdd">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/gameTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/mainTitle"
+        android:textSize="50dp" />
+
+    <GridView
+        android:id="@+id/field"
+        android:layout_width="fill_parent"
+        android:layout_height="412dp"
+        android:background="@drawable/template1"></GridView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#080d0c"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/One" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/Two" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/Three" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/Four" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/Five" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/Six" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/Seven" />
+
+        <Button
+            android:id="@+id/btn8"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/Eight" />
+
+        <Button
+            android:id="@+id/btn9"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/Nine" />
+    </LinearLayout>
+
+</LinearLayout>
