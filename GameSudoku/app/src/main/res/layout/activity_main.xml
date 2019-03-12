@@ -13,9 +13,9 @@
         android:gravity="center">
         
         <TextView
+            android:id="@+id/title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/title"
             android:text="@string/mainTitle"
             android:layout_marginBottom="5dip"
             android:textSize="40sp"/>
@@ -26,7 +26,8 @@
             android:layout_height="wrap_content"
             android:text="@string/continueGame"
             android:layout_marginBottom="5dip"
-            android:textSize="50dp"/>
+            android:textSize="50dp"
+            android:onClick="continueGame"/>
 
         <Button
             android:id="@+id/buttonNewGame"
@@ -34,7 +35,8 @@
             android:layout_height="wrap_content"
             android:text="@string/new_game"
             android:layout_marginBottom="5dip"
-            android:textSize="50dp"/>
+            android:textSize="50dp"
+            android:onClick="newGame"/>
 
         <Button
             android:id="@+id/buttonGameRules"
@@ -42,14 +44,16 @@
             android:layout_height="wrap_content"
             android:text="@string/rules"
             android:layout_marginBottom="5dip"
-            android:textSize="50dp"/>
+            android:textSize="50dp"
+            android:onClick="ruleGame"/>
 
         <Button
             android:id="@+id/buttonExitGame"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/exitGame"
-            android:textSize="50dp"/>
+            android:textSize="50dp"
+            android:onClick="exitGame"/>
     </LinearLayout>
 
 </LinearLayout>

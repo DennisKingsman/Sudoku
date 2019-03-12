@@ -12,24 +12,24 @@
         android:id="@+id/aboutTitle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
         android:text="@string/rules"
-        android:textSize="50dp"
-        android:gravity="center"/>
+        android:textSize="50dp" />
 
     <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:scrollbars="vertical"
-        android:fillViewport="true">
+        android:fillViewport="true"
+        android:scrollbars="vertical">
 
         <TextView
             android:id="@+id/aboutText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/some_information_how_to_play"
-            android:textSize="35dp"
             android:layout_margin="10dp"
-            android:paddingBottom="30dp"/>
+            android:paddingBottom="30dp"
+            android:text="@string/some_information_how_to_play"
+            android:textSize="30dp" />
     </ScrollView>
 </LinearLayout>

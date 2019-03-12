@@ -32,55 +32,64 @@
             android:id="@+id/btn1"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:background="@drawable/One" />
+            android:background="@drawable/n1"
+            style = "@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
 
         <Button
             android:id="@+id/btn2"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:background="@drawable/Two" />
+            android:background="@drawable/n2"
+            style = "@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
 
         <Button
             android:id="@+id/btn3"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:background="@drawable/Three" />
+            android:background="@drawable/n3"
+            style = "@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
 
         <Button
             android:id="@+id/btn4"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:background="@drawable/Four" />
+            android:background="@drawable/n4"
+            style = "@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
 
         <Button
             android:id="@+id/btn5"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:background="@drawable/Five" />
+            android:background="@drawable/n5"
+            style = "@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
 
         <Button
             android:id="@+id/btn6"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:background="@drawable/Six" />
+            android:background="@drawable/n6"
+            style = "@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
 
         <Button
             android:id="@+id/btn7"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:background="@drawable/Seven" />
+            android:background="@drawable/n7"
+            style = "@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
 
         <Button
             android:id="@+id/btn8"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:background="@drawable/Eight" />
+            android:background="@drawable/n8"
+            style = "@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
 
         <Button
             android:id="@+id/btn9"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:background="@drawable/Nine" />
+            android:background="@drawable/n9"
+            style = "@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"/>
     </LinearLayout>
 
 </LinearLayout>
