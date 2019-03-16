@@ -4,9 +4,11 @@ import android.app.Activity;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.GridView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class GameActivity extends Activity implements View.OnClickListener {
 
@@ -32,6 +34,19 @@ public class GameActivity extends Activity implements View.OnClickListener {
         gridView.setEnabled(true);
         gridView.setAdapter(game);
 
+        gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+                game.setNumber(position, selectedBtn);
+                if(game.checkRepeatedValues(selectedBtn)){
+                    Toast.makeText(getApplicationContext(), "you have repeated value", Toast.LENGTH_SHORT).show();
+                }
+                if(game.checkWinner()){
+                    Toast.makeText(getApplicationContext(), "you win", Toast.LENGTH_LONG).show();
+                    finish();
+                }
+            }
+        });
     }
 
     private void getUIItems(){
